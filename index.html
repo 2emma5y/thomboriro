@@ -3,13 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Thomboriro Tattoo Art studio featuring custom tattoos, portrait tattoos, and original artwork.">
-  <title>Thomboriro Tattoo Art</title>
+  <meta name="description" content="Luxury tattoo studio portfolio for custom designs, portrait art, and premium ink experiences.">
+  <title>Thomboriro Tattoo Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stlyle.css">
 </head>
 <body>
   <header class="topbar">
-    <h2>THOMBORIRO <span>TATTO ART</span></h2>
+    <div class="brand">
+      <span class="brand-mark">T</span>
+      <h2>THOMBORIRO <span>TATTOO STUDIO</span></h2>
+    </div>
     <nav aria-label="Main navigation">
       <a href="#home">Home</a>
       <a href="#portfolio">Portfolio</a>
@@ -20,7 +26,7 @@
 
   <main id="home" class="hero">
     <div class="hero-copy reveal">
-      <p class="eyebrow">INK YOUR STORY</p>
+      <p class="eyebrow">LUXURY FINE-ART TATTOOS</p>
       <h1>YOUR SKIN.<br><span>YOUR STORY.</span></h1>
 
       <div class="typing-wrap" aria-live="polite">
@@ -28,11 +34,20 @@
         <span id="typing-text"></span>
       </div>
 
-      <p class="lead">Custom tattoos, portrait artistry, and original designs created with meaning, precision, and passion.</p>
+      <p class="lead">Bespoke tattoo artistry, bold blackwork, refined portrait pieces, and custom concepts designed to last a lifetime.</p>
 
       <div class="cta-row">
         <a class="button" href="#portfolio">View Portfolio</a>
-        <a class="button secondary" href="#contact">Book a Session</a>
+        <a class="button secondary" href="#contact">Book Consultation</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal" aria-label="Tattoo studio portrait gallery">
+      <div class="visual-card card-one">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Tattoo portrait artwork on skin">
+      </div>
+      <div class="visual-card card-two">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Tattoo studio portrait">
       </div>
     </div>
   </main>
@@ -40,39 +55,39 @@
   <section id="portfolio" class="gallery-section reveal">
     <div class="section-heading">
       <p class="eyebrow">FEATURED WORK</p>
-      <h2>Portraits & Fine Line Art</h2>
+      <h2>Luxury Tattoo Portraiture</h2>
     </div>
 
     <div class="gallery-grid">
       <article class="gallery-card tall">
-        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Tattoo portrait artwork on skin">
+        <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=80" alt="Realism tattoo detail on skin">
         <div class="card-overlay">
-          <span>Fine Line Portrait</span>
+          <span>Fine Line</span>
           <h3>Portrait Detail</h3>
         </div>
       </article>
 
       <article class="gallery-card">
-        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Tattoo artist portrait in studio">
+        <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80" alt="Tattooed model portrait with design">
         <div class="card-overlay">
           <span>Blackwork</span>
-          <h3>Bold Ink</h3>
+          <h3>Urban Ink</h3>
         </div>
       </article>
 
       <article class="gallery-card">
-        <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?auto=format&fit=crop&w=900&q=80" alt="Realism tattoo detail on arm">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Tattoo artist and portrait work">
         <div class="card-overlay">
-          <span>Realism</span>
-          <h3>Storytelling Ink</h3>
+          <span>Custom</span>
+          <h3>Signature Art</h3>
         </div>
       </article>
 
       <article class="gallery-card wide">
-        <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=1200&q=80" alt="Tattooed model portrait with artistic design">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80" alt="Detailed tattoo portrait art">
         <div class="card-overlay">
-          <span>Custom Work</span>
-          <h3>Signature Pieces</h3>
+          <span>Luxury Design</span>
+          <h3>Custom Masterpiece</h3>
         </div>
       </article>
     </div>
@@ -81,41 +96,41 @@
   <section id="designs" class="reveal">
     <div class="section-heading">
       <p class="eyebrow">STUDIO SERVICES</p>
-      <h2>Custom Tattoos Designed Around You</h2>
+      <h2>Artistry Tailored to Your Vision</h2>
     </div>
 
     <div class="services-grid">
       <article class="service-card">
         <h3>Portrait Tattoos</h3>
-        <p>Bring a loved one, symbol, or memory to life through detailed custom portrait ink.</p>
+        <p>Transform meaningful people, memories, and symbols into refined, lifelike custom artwork.</p>
       </article>
 
       <article class="service-card">
-        <h3>Blackwork & Line Art</h3>
-        <p>Clean, striking artwork with depth, contrast, and timeless visual impact.</p>
+        <h3>Blackwork & Linework</h3>
+        <p>Modern, striking compositions built on contrast, detail, and timeless elegance.</p>
       </article>
 
       <article class="service-card">
         <h3>Original Concepts</h3>
-        <p>Personalized art created around your story, identity, and the vision behind the piece.</p>
+        <p>Every design is created to feel deeply personal and visually unforgettable.</p>
       </article>
     </div>
   </section>
 
   <section id="contact" class="reveal contact-section">
     <div class="section-heading">
-      <p class="eyebrow">BOOK NOW</p>
-      <h2>Let’s Create Your Next Piece</h2>
+      <p class="eyebrow">BOOK A CONSULTATION</p>
+      <h2>Let’s Create Your Next Statement Piece</h2>
     </div>
 
     <div class="contact-box">
-      <p>Tell us about the tattoo you want and start your custom design journey.</p>
+      <p>Share your vision and let’s design a tattoo that reflects your story with artistry and precision.</p>
       <a class="button" href="mailto:your-email@example.com">Send an Enquiry</a>
     </div>
   </section>
 
   <footer>
-    <p>© <span id="year"></span> Thomboriro Tattoo Art</p>
+    <p>© <span id="year"></span> Thomboriro Tattoo Studio</p>
   </footer>
 
   <script src="style.js"></script>
