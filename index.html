@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Luxury tattoo studio portfolio for custom designs, portrait art, and premium ink experiences.">
+  <meta name="description" content="Luxury tattoo studio portfolio with custom consultation booking, gallery, testimonials, and contact details.">
   <title>Thomboriro Tattoo Studio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,8 +25,9 @@
     </div>
     <nav aria-label="Main navigation">
       <a href="#home">Home</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#designs">Designs</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Reviews</a>
+      <a href="#booking">Booking</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -44,9 +45,15 @@
       <p class="lead">Bespoke tattoo artistry, bold blackwork, refined portrait pieces, and custom concepts designed to last a lifetime.</p>
 
       <div class="cta-row">
-        <a class="button" href="#portfolio">View Portfolio</a>
-        <a class="button secondary" href="#contact">Book Consultation</a>
+        <a class="button" href="#gallery">View Portfolio</a>
+        <a class="button secondary" href="#booking">Book Consultation</a>
       </div>
+
+      <ul class="hero-metrics" aria-label="Studio highlights">
+        <li><strong>12+</strong><span>Years Craft</span></li>
+        <li><strong>500+</strong><span>Custom Pieces</span></li>
+        <li><strong>4.9/5</strong><span>Client Rating</span></li>
+      </ul>
     </div>
 
     <div class="hero-visual reveal" aria-label="Tattoo studio portrait gallery">
@@ -59,7 +66,7 @@
     </div>
   </main>
 
-  <section id="portfolio" class="gallery-section reveal">
+  <section id="gallery" class="gallery-section reveal">
     <div class="section-heading">
       <p class="eyebrow">FEATURED WORK</p>
       <h2>Luxury Tattoo Portraiture</h2>
@@ -98,41 +105,134 @@
         </div>
       </article>
     </div>
+
+    <div class="social-strip">
+      <span>@thomborirotattoo</span>
+      <a href="https://instagram.com" target="_blank" rel="noreferrer">Follow on Instagram</a>
+    </div>
   </section>
 
-  <section id="designs" class="reveal">
+  <section id="testimonials" class="reveal">
     <div class="section-heading">
-      <p class="eyebrow">STUDIO SERVICES</p>
-      <h2>Artistry Tailored to Your Vision</h2>
+      <p class="eyebrow">CLIENT STORIES</p>
+      <h2>Words from the Chair</h2>
     </div>
 
-    <div class="services-grid">
-      <article class="service-card">
-        <h3>Portrait Tattoos</h3>
-        <p>Transform meaningful people, memories, and symbols into refined, lifelike custom artwork.</p>
+    <div class="testimonials-grid">
+      <article class="testimonial-card">
+        <p>“The detail was breathtaking. The whole experience felt high-end, personal, and truly tailored to my story.”</p>
+        <div class="client-meta">
+          <strong>Amelia R.</strong>
+          <span>Portrait Tattoo</span>
+        </div>
       </article>
 
-      <article class="service-card">
-        <h3>Blackwork & Linework</h3>
-        <p>Modern, striking compositions built on contrast, detail, and timeless elegance.</p>
+      <article class="testimonial-card">
+        <p>“From concept to final result, everything felt thoughtful and premium. The design felt as unique as I do.”</p>
+        <div class="client-meta">
+          <strong>Marcus D.</strong>
+          <span>Blackwork Piece</span>
+        </div>
       </article>
 
-      <article class="service-card">
-        <h3>Original Concepts</h3>
-        <p>Every design is created to feel deeply personal and visually unforgettable.</p>
+      <article class="testimonial-card">
+        <p>“Clean, elegant, and stunning. The artist captured every detail and made the whole process effortless.”</p>
+        <div class="client-meta">
+          <strong>Nia S.</strong>
+          <span>Custom Linework</span>
+        </div>
       </article>
+    </div>
+  </section>
+
+  <section id="booking" class="reveal booking-section">
+    <div class="section-heading">
+      <p class="eyebrow">BOOKING</p>
+      <h2>Start Your Custom Tattoo Journey</h2>
+    </div>
+
+    <div class="booking-layout">
+      <div class="booking-copy">
+        <h3>Consultation & Artwork</h3>
+        <p>Tell us about your vision, preferred style, placement, and timeline. We’ll create a concept that reflects your story with precision and artistry.</p>
+        <ul>
+          <li>Custom design discussions</li>
+          <li>Portrait and blackwork options</li>
+          <li>Aftercare guidance included</li>
+        </ul>
+      </div>
+
+      <form class="booking-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <div class="field-row">
+          <label>
+            Full Name
+            <input type="text" name="fullName" placeholder="Your name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+        </div>
+
+        <div class="field-row">
+          <label>
+            Phone
+            <input type="tel" name="phone" placeholder="+00 000 000 0000">
+          </label>
+          <label>
+            Tattoo Style
+            <select name="style" required>
+              <option value="">Select a style</option>
+              <option>Portrait</option>
+              <option>Fine Line</option>
+              <option>Blackwork</option>
+              <option>Realism</option>
+              <option>Custom Concept</option>
+            </select>
+          </label>
+        </div>
+
+        <label>
+          Preferred Placement
+          <input type="text" name="placement" placeholder="Arm, back, chest, etc.">
+        </label>
+
+        <label>
+          Project Details
+          <textarea name="message" rows="5" placeholder="Tell us about your idea, size, and references..." required></textarea>
+        </label>
+
+        <button type="submit" class="button">Send Booking Request</button>
+      </form>
     </div>
   </section>
 
   <section id="contact" class="reveal contact-section">
     <div class="section-heading">
-      <p class="eyebrow">BOOK A CONSULTATION</p>
-      <h2>Let’s Create Your Next Statement Piece</h2>
+      <p class="eyebrow">CONTACT</p>
+      <h2>Connect With The Studio</h2>
     </div>
 
-    <div class="contact-box">
-      <p>Share your vision and let’s design a tattoo that reflects your story with artistry and precision.</p>
-      <a class="button" href="mailto:your-email@example.com">Send an Enquiry</a>
+    <div class="contact-layout">
+      <div class="contact-panel">
+        <h3>Studio Details</h3>
+        <ul>
+          <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+          <li>Instagram: <a href="https://instagram.com" target="_blank" rel="noreferrer">@thomborirotattoo</a></li>
+          <li>Phone: <a href="tel:+0000000000">+00 000 000 0000</a></li>
+          <li>Location: Your city / studio address</li>
+        </ul>
+      </div>
+
+      <div class="contact-panel accent-panel">
+        <h3>Follow The Journey</h3>
+        <p>Behind-the-scenes sketches, finished tattoos, and private commissions.</p>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://facebook.com" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="mailto:your-email@example.com">Email</a>
+        </div>
+      </div>
     </div>
   </section>
 
